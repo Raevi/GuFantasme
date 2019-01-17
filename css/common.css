@@ -1,0 +1,42 @@
+* {font-family:verdana; margin:0; padding:0}
+body{background-color: #eeeeee}
+
+.divBanner{margin:auto; width:885px; height:160px; background: #ffffff url('../img/banner.jpg') no-repeat;}
+.divLine{margin:auto; width:885px; height:14px; background: #ffffff url('../img/line.jpg') no-repeat;}
+.divContent{margin:auto; width:885px; background-color: #fefbf3; min-height:300px;}
+.divFooter{margin:auto; width:885px; height:12px; font-size:10px; text-align:center; color:#aaaaaa}
+.divMenu{margin:auto; width:885px; height:45px; background: #ffffff url('../img/menuback.png') no-repeat;}
+
+.bright{border-right: 1px solid #aaaaaa;}
+.bleft{border-left: 1px solid #aaaaaa;}
+.bbottom{border-bottom: 1px solid #aaaaaa;}
+
+/*CONTENT ACCUEIL*/
+.contentText{margin:20px 50px 0px 50px; text-align:justify;}
+.contentText img{margin:0px 20px 20px 0px; border:0}
+
+/*CONTENT VIDEO*/
+.aLinkVideo{text-decoration:none; color:black}
+.aLinkVideo:hover{text-decoration:none; color:#aac2cd}
+
+/*COMMUN*/
+.italic {font-style:italic;}
+.s10 {font-size:10px;}
+.s12 {font-size:12px;}
+.s14 {font-size:14px;}
+
+#m_accueil{background: url('../img/m_accueil.png') no-repeat ; width:100px;height:40px;display:block;}
+#m_nouvelle{background: url('../img/m_nouvelle.png') no-repeat ; width:140px;height:40px;display:block;}
+#m_video{background: url('../img/m_video.png') no-repeat ; width:100px;height:40px;display:block;}
+#m_photo{background: url('../img/m_photo.png') no-repeat ; width:100px;height:40px;display:block;}
+#m_projet{background: url('../img/m_projet.png') no-repeat ; width:100px;height:40px;display:block;}
+#m_forum{background: url('../img/m_forum.png') no-repeat ; width:100px;height:40px;display:block;}
+
+#m_accueil:hover{background: url('../img/m_accueil_s.png') no-repeat ; width:100px;height:40px;display:block;}
+#m_nouvelle:hover{background: url('../img/m_nouvelle_s.png') no-repeat ; width:140px;height:40px;display:block;}
+#m_video:hover{background: url('../img/m_video_s.png') no-repeat ; width:100px;height:40px;display:block;}
+#m_photo:hover{background: url('../img/m_photo_s.png') no-repeat ; width:100px;height:40px;display:block;}
+#m_projet:hover{background: url('../img/m_projet_s.png') no-repeat ; width:100px;height:40px;display:block;}
+#m_forum:hover{background: url('../img/m_forum_s.png') no-repeat ; width:100px;height:40px;display:block;}
+
+myGallery{margin-left:242px; width: 400px !important;height: 200px !important;}

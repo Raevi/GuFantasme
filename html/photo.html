@@ -1,0 +1,59 @@
+<img src="img/photo.png" alt="Photo"/>
+
+<script type="text/javascript">
+function startGallery() {
+var myGallery = new gallery($('myGallery'), {
+timed: false,
+showArrows: true,
+showCarousel: true,
+embedLinks: true
+});
+}
+window.addEvent('domready', startGallery);
+</script>
+
+<p class="contentText s14">
+  <span style="font-size:16px; font-weight:900">Galerie de photos Fantasme</span>
+  <br/>
+  Autant de moments forts immortalis&eacute;s pour toujours...
+</p>
+<br/>
+<table style="margin:auto">
+<tr>
+<td>
+<div id="myGallery">
+  <div class="imageElement">
+    <h3>Hakkar &agrave; Zul'Gurub</h3>
+    <p>Premier raid achev&eacute; par Fantasme</p>
+    <a href="http://image.raevi.net/hakar.png" title="open image" class="open"></a>
+    <img src="img/photo/full/hakar_full.jpg" class="full" />
+    <img src="img/photo/small/hakar_small.jpg" class="thumbnail" />
+  </div>
+  <div class="imageElement">
+    <h3>Ouverture d'Ahn'Qiraj</h3>
+    <p>Un grand &eacute;v&egrave;nement sur Varimathras</p>
+    <a href="http://image.raevi.net/anhqiraj.png" title="open image" class="open"></a>
+    <img src="img/photo/full/ahnqiraj_full.jpg" class="full" />
+    <img src="img/photo/small/ahnqiraj_small.jpg" class="thumbnail" />
+  </div>
+  <div class="imageElement">
+    <h3>Down de N&eacute;farius</h3>
+    <p>La fin de notre aventure &agrave; BWL</p>
+    <a href="http://image.raevi.net/nefarian.png" title="open image" class="open"></a>
+    <img src="img/photo/full/nefarian_full.jpg" class="full" />
+    <img src="img/photo/small/nefarian_small.jpg" class="thumbnail" />
+  </div>
+  <div class="imageElement">
+    <h3>Notre premi&egrave;re Sulfuras</h3>
+    <p>pour Kadok</p>
+    <a href="http://image.raevi.net/sulfuras.png" title="open image" class="open"></a>
+    <img src="img/photo/full/sulfuras_full.jpg" class="full" />
+    <img src="img/photo/small/sulfuras_small.jpg" class="thumbnail" />
+  </div>
+</div>
+</td>
+</tr>
+</table>
+<br/>
+<br/>
+<!--http://www.dezinerfolio.com/2007/04/05/free-ajax-slideshow-galleries/-->
